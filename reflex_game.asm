@@ -206,7 +206,7 @@ clear_life_line:;can satirini temizleme
 
     call print_lives
 
-    ;can bittiğinde oyunu bitir
+    ;can bittiÃ°inde oyunu bitir
     cmp lives, 0
     je end_game
 
