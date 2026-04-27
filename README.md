@@ -20,5 +20,12 @@ This is a simple reflex game written in 8086 Assembly using EMU8086.
 - 1 → Restart
 - 2 → Exit
 
+## Technical Details
+- Interrupts used:
+  - INT 21h → I/O operations
+  - INT 10h → Screen control
+  - INT 16h → Keyboard input
+  - INT 1Ah → Timer
+
 ## Author
 Said Samed Karabulut
